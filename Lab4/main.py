@@ -7,11 +7,6 @@ font = {
 }
 art = CustomArt('hp')
 
-# art._size_x = 10
-# art._size_y = 12
-# art.zoom()
-# print(art.prev_view())
-#
 art.justify = 'right'
 art.create()
 print(art)
