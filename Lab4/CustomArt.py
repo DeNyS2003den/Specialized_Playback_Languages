@@ -1,4 +1,4 @@
-from Data.lab_3.ArtGenerator import ArtGenerator
+from ArtGenerator import ArtGenerator
 from fonts import *
 
 
