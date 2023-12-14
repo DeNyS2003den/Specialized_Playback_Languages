@@ -1,13 +1,13 @@
 import logging
 
-from Lab8._visualizer import MonthlyFinancialAnalyzer
+from Lab8.visualizer import MonthlyFinancialAnalyzer
 from utils import UserInputHelper
 
 
 # Represents financial data visualizer interface
 class FinancialDataInterface:
 
-    def __init__(self):
+    def init__(self):
         logging.info('Initialize financial data interface')
         self.__financial_data_visualizer = MonthlyFinancialAnalyzer('files/data.csv')
 
