@@ -1,6 +1,6 @@
 import logging
 
-from Lab8.financial_data_visualizer import MonthlyFinancialAnalyzer
+from Lab8._visualizer import MonthlyFinancialAnalyzer
 from utils import UserInputHelper
 
 
