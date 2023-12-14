@@ -8,7 +8,7 @@ import plotly.express as px
 # Analyze financial data from file
 class MonthlyFinancialAnalyzer:
     # Constructor
-    def __init__(self, csv_file_path):
+    def init__(self, csv_file_path):
         logging.info('Initialize finance analyzer')
         self.df = pd.read_csv(csv_file_path)
 
