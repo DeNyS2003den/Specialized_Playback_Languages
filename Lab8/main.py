@@ -1,4 +1,4 @@
-from Lab8._interface import FinancialDataInterface
+from Lab8.interface import FinancialDataInterface
 
 
 def execute_lab8():
